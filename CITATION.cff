@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: Chinese Patent Topic Discovery
+message: If these topic-model outputs or baselines help your work, please cite them with the metadata in this file.
+type: dataset
+authors:
+  - family-names: Li
+    given-names: Xiangyu
+abstract: Topic discovery experiments and exported topic assignments for Chinese patent titles and abstracts.
+keywords:
+  - Chinese NLP
+  - patent analysis
+  - topic modeling
+  - unsupervised learning
+license: MIT
+
