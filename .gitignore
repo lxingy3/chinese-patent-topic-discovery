@@ -6,4 +6,5 @@ __pycache__/
 *.pt
 *.bin
 *.safetensors
-
+!artifacts/**/*.npy
+!artifacts/**/*.pt

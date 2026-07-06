@@ -1,0 +1,11 @@
+﻿参数,值,说明
+N_TOPICS,16.0,无监督潜在主题数，不等于 IPC 一级类数
+SEED,42.0,随机种子
+TRAIN_RATIO,0.6,用于学习主题到 IPC 一级的自动映射
+VALID_RATIO,0.2,用于选择多标签阈值
+best_topic_delta,0.02,与最高主题相似度差距不超过该值则保留为附加主题
+best_max_topics_per_doc,2.0,每件专利最多预测几个无监督主题
+best_map_min_prob,0.3,主题映射到 IPC 一级的最低训练集条件概率
+best_map_min_lift,2.0,主题内IPC占比相对训练集基础占比的最低提升倍数
+MAP_MIN_LIFT_COUNT,5.0,使用相对提升度规则时，该IPC在主题内至少出现的次数
+MAX_IPC_LABELS_PER_TOPIC,4.0,每个无监督主题最多映射几个 IPC 一级类

@@ -1,0 +1,11 @@
+﻿模型,参数组,Topic数,TopN,TU,NPMI,C_V
+TF-IDF + KMeans,"K=8, max_features=5000, max_df=0.85",8,10,0.9125,0.1103,0.6948
+TF-IDF + KMeans,"K=10, max_features=5000, max_df=0.85",10,10,0.87,0.1185,0.6929
+TF-IDF + KMeans,"K=12, max_features=5000, max_df=0.85",12,10,0.8417,0.0874,0.7044
+TF-IDF + NMF,"T=8, max_features=5000, max_df=0.85",8,10,0.925,0.0719,0.6825
+TF-IDF + NMF,"T=10, max_features=5000, max_df=0.85",10,10,0.93,0.0999,0.6875
+TF-IDF + NMF,"T=12, max_features=5000, max_df=0.85",12,10,0.8917,0.0789,0.6719
+Sentence-BERT + CETopic,"T=20, dim=5, method=tfidf_idfi",20,10,0.8934,0.0016,0.5267
+Sentence-BERT + CETopic,"T=30, dim=5, method=tfidf_idfi",30,10,0.8593,0.0098,0.5198
+Sentence-BERT + CETopic,"T=30, dim=2, method=tfidf_idfi",30,10,0.8392,-0.0055,0.5221
+Sentence-BERT + CETopic,"T=30, dim=-1, method=tfidf_idfi",30,10,0.8218,0.01,0.5433

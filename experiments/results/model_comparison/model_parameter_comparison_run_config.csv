@@ -1,0 +1,2 @@
+input_file,rows_total,rows_valid_before_dedup,rows_used,duplicate_title_abstract_rows_removed,title_topic_weight,seed,low_support_topic_ratio,min_low_support_size,top_n_words,display_top_words,embedding_cache,title_abstract_duplicate_records,title_abstract_duplicate_groups,elapsed_seconds
+data/processed/patent_texts.csv,10000,10000,9881,119,3,42,0.02,100,10,5,artifacts/embeddings/patent_embeddings_paraphrase_multilingual_minilm_l12_v2.npy,238,119,390.04
